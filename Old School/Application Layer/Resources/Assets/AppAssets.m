@@ -7,3 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AppAssets.h"
+
+@implementation AppAssets
+
+@end

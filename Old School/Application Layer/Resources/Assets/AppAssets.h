@@ -6,8 +6,6 @@
 //  Copyright © 2020 Vladislav Markov. All rights reserved.
 //
 
-#ifndef AppAssets_h
-#define AppAssets_h
+@interface AppAssets : NSObject
 
-
-#endif /* AppAssets_h */
+@end
