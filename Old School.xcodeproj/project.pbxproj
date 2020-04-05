@@ -15,6 +15,7 @@
 		047E35D824338E480084F9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047E35D724338E480084F9EE /* Assets.xcassets */; };
 		047E35DB24338E480084F9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047E35D924338E480084F9EE /* LaunchScreen.storyboard */; };
 		047E35EC24338F400084F9EE /* AppAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E35EB24338F400084F9EE /* AppAssets.m */; };
+		04818FF32439D96500D0137E /* InitialViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04818FF22439D96500D0137E /* InitialViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		047E35DC24338E480084F9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047E35EB24338F400084F9EE /* AppAssets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppAssets.m; sourceTree = "<group>"; };
 		047E35ED24338F620084F9EE /* AppAssets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppAssets.h; sourceTree = "<group>"; };
+		04818FF12439D95900D0137E /* InitialViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialViewModel.h; sourceTree = "<group>"; };
+		04818FF22439D96500D0137E /* InitialViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +168,8 @@
 				046506FC2438BA9C004E3F5B /* InitialViewController.h */,
 				046506FD2438BA9C004E3F5B /* InitialViewController.m */,
 				046506FE2438BA9C004E3F5B /* InitialViewController.xib */,
+				04818FF12439D95900D0137E /* InitialViewModel.h */,
+				04818FF22439D96500D0137E /* InitialViewModel.m */,
 			);
 			path = Initial;
 			sourceTree = "<group>";
@@ -244,6 +249,7 @@
 				047E35CD24338E460084F9EE /* AppDelegate.m in Sources */,
 				047E35EC24338F400084F9EE /* AppAssets.m in Sources */,
 				046506FF2438BA9C004E3F5B /* InitialViewController.m in Sources */,
+				04818FF32439D96500D0137E /* InitialViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

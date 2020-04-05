@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "InitialViewModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface InitialViewController : UIViewController
+@interface InitialViewController : UIViewController {
+    InitialViewModel* _viewModel;
+}
+
+@property (strong, nonatomic) InitialViewModel* viewModel;
 
 @end
 

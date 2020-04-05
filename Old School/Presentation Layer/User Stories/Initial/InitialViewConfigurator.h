@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "InitialViewModel.h"
 
 @interface InitialViewConfigurator : NSObject
 
-+ (UIViewController*)create;
-
-+ (void)configureWithReference:(UIViewController*)reference;;
++ (UIViewController*) create;
++ (id <InitialViewModelInput>) configureWithReference: (UIViewController*) reference;;
 
 @end

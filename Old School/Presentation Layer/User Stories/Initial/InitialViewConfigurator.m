@@ -12,12 +12,16 @@
 
 @implementation InitialViewConfigurator
 
-+ (UIViewController*)create {
++ (UIViewController*) create {
     return [[InitialViewController alloc] initWithNibName:@"InitialViewController" bundle:nil];
 }
 
-+ (void)configureWithReference:(UIViewController*)reference {
-    return;
++ (id <InitialViewModelInput>) configureWithReference: (InitialViewController*) reference {
+    InitialViewModel* viewModel = [InitialViewModel new];
+    
+    reference.viewModel = viewModel;
+    
+    return nil;
 }
 
 @end

@@ -14,6 +14,10 @@
 
 @implementation InitialViewController
 
+#pragma mark - Props
+@synthesize viewModel = _viewModel;
+
+#pragma mark - Lifecycle
 - (void)viewDidLoad {
     [super viewDidLoad];
 }

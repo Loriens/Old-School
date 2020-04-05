@@ -14,8 +14,8 @@
 
 @implementation AppDelegate
 
-#pragma mark - AppDelegate Lifecycle
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+#pragma mark - Lifecycle
+- (BOOL) application: (UIApplication *) application didFinishLaunchingWithOptions: (NSDictionary *) launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     UIViewController* rootVc = [InitialViewConfigurator create];
