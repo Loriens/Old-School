@@ -1,5 +1,5 @@
 //
-//  InitialViewConfigurator.h
+//  InitialConfigurator.h
 //  Old School
 //
 //  Created by Vladislav on 04.04.2020.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "InitialViewModel.h"
 
-@interface InitialViewConfigurator : NSObject
+@interface InitialConfigurator : NSObject
 
 + (UIViewController*) create;
 + (id <InitialViewModelInput>) configureWithReference: (UIViewController*) reference;

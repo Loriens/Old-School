@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041CA553245427A800FA69EC /* InitialRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 041CA552245427A800FA69EC /* InitialRouter.m */; };
 		046506FF2438BA9C004E3F5B /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046506FD2438BA9C004E3F5B /* InitialViewController.m */; };
 		046507002438BA9C004E3F5B /* InitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046506FE2438BA9C004E3F5B /* InitialViewController.xib */; };
-		046507022438BD57004E3F5B /* InitialViewConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 046507012438BD57004E3F5B /* InitialViewConfigurator.m */; };
+		046507022438BD57004E3F5B /* InitialConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 046507012438BD57004E3F5B /* InitialConfigurator.m */; };
 		0465072D2438C6F1004E3F5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465072C2438C6F1004E3F5B /* main.m */; };
 		047E35CD24338E460084F9EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E35CC24338E460084F9EE /* AppDelegate.m */; };
 		047E35D824338E480084F9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047E35D724338E480084F9EE /* Assets.xcassets */; };
@@ -19,11 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041CA552245427A800FA69EC /* InitialRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialRouter.m; sourceTree = "<group>"; };
+		041CA554245427B300FA69EC /* InitialRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialRouter.h; sourceTree = "<group>"; };
 		046506FC2438BA9C004E3F5B /* InitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
 		046506FD2438BA9C004E3F5B /* InitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
 		046506FE2438BA9C004E3F5B /* InitialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
-		046507012438BD57004E3F5B /* InitialViewConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialViewConfigurator.m; sourceTree = "<group>"; };
-		046507032438BD62004E3F5B /* InitialViewConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialViewConfigurator.h; sourceTree = "<group>"; };
+		046507012438BD57004E3F5B /* InitialConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialConfigurator.m; sourceTree = "<group>"; };
+		046507032438BD62004E3F5B /* InitialConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialConfigurator.h; sourceTree = "<group>"; };
 		0465072C2438C6F1004E3F5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		047E35C824338E460084F9EE /* Old School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Old School.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047E35CB24338E460084F9EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -163,8 +166,10 @@
 		047E35F224338F9F0084F9EE /* Initial */ = {
 			isa = PBXGroup;
 			children = (
-				046507032438BD62004E3F5B /* InitialViewConfigurator.h */,
-				046507012438BD57004E3F5B /* InitialViewConfigurator.m */,
+				046507032438BD62004E3F5B /* InitialConfigurator.h */,
+				046507012438BD57004E3F5B /* InitialConfigurator.m */,
+				041CA554245427B300FA69EC /* InitialRouter.h */,
+				041CA552245427A800FA69EC /* InitialRouter.m */,
 				046506FC2438BA9C004E3F5B /* InitialViewController.h */,
 				046506FD2438BA9C004E3F5B /* InitialViewController.m */,
 				046506FE2438BA9C004E3F5B /* InitialViewController.xib */,
@@ -245,10 +250,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0465072D2438C6F1004E3F5B /* main.m in Sources */,
-				046507022438BD57004E3F5B /* InitialViewConfigurator.m in Sources */,
+				046507022438BD57004E3F5B /* InitialConfigurator.m in Sources */,
 				047E35CD24338E460084F9EE /* AppDelegate.m in Sources */,
 				047E35EC24338F400084F9EE /* AppAssets.m in Sources */,
 				046506FF2438BA9C004E3F5B /* InitialViewController.m in Sources */,
+				041CA553245427A800FA69EC /* InitialRouter.m in Sources */,
 				04818FF32439D96500D0137E /* InitialViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,6 +15,7 @@
 @implementation InitialViewController
 
 #pragma mark - Props
+@synthesize router = _router;
 @synthesize viewModel = _viewModel;
 
 #pragma mark - Lifecycle

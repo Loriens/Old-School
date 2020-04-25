@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "InitialViewConfigurator.h"
+#import "InitialConfigurator.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

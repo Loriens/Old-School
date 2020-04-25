@@ -18,8 +18,8 @@
 - (BOOL) application: (UIApplication *) application didFinishLaunchingWithOptions: (NSDictionary *) launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
-    UIViewController* rootVc = [InitialViewConfigurator create];
-    [InitialViewConfigurator configureWithReference:rootVc];
+    UIViewController* rootVc = [InitialConfigurator create];
+    [InitialConfigurator configureWithReference:rootVc];
     self.window.rootViewController = rootVc;
     [self.window makeKeyAndVisible];
     
