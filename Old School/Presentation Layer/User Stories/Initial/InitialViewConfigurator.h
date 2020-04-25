@@ -12,6 +12,6 @@
 @interface InitialViewConfigurator : NSObject
 
 + (UIViewController*) create;
-+ (id <InitialViewModelInput>) configureWithReference: (UIViewController*) reference;;
++ (id <InitialViewModelInput>) configureWithReference: (UIViewController*) reference;
 
 @end

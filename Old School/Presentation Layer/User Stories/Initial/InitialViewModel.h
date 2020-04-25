@@ -18,4 +18,6 @@
 
 @interface InitialViewModel (InitialViewModelInput) <InitialViewModelInput>
 
+- (void) configureWithData: (id) data;
+
 @end
