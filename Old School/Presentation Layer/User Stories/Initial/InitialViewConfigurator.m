@@ -16,12 +16,12 @@
     return [[InitialViewController alloc] initWithNibName:@"InitialViewController" bundle:nil];
 }
 
-+ (id <InitialViewModelInput>) configureWithReference: (InitialViewController*) reference {
++ (id<InitialViewModelInput>) configureWithReference: (InitialViewController*) reference {
     InitialViewModel* viewModel = [InitialViewModel new];
     
     reference.viewModel = viewModel;
     
-    return nil;
+    return viewModel;
 }
 
 @end
